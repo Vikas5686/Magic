@@ -1,0 +1,148 @@
+* {
+  background-color: #72efff;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  color: black;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  padding: 4px;
+  margin: 0px;
+  text-align: center;
+  overflow: auto;
+}
+
+textarea {
+  font-size: 15px;
+  padding: 4px;
+  margin-top: 10px;
+  width: 80%;
+  outline: none;
+  background-color: white;
+  border: 2px solid black;
+}
+.title {
+  margin-top: 20px;
+}
+h1 {
+  padding: 15px 0px 0px 0px;
+  text-shadow: 0px 0px 10px orange;
+}
+
+input {
+  width: 80%;
+  height: 22px;
+  border: 2px solid black;
+  font-size: 15px;
+  padding: 4px;
+  outline: none;
+  background-color: white;
+}
+
+.Not {
+  display: inline;
+  position: relative;
+  bottom: 16px;
+  margin: 3px 7px 0px -5px;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px orange;
+}
+
+
+.t {
+  font-weight: bold;
+  display: inline;
+  margin: 3px 6px 0px -5px;
+  text-shadow: 0px 0px 10px orange;
+}
+
+button {
+  margin-top: 10px;
+  outline: none;
+  background-color: greenyellow;
+  padding: 4px;
+  border: 2px solid black;
+  font-weight: bold;
+  box-shadow: 0px 0px 20px 4px orange;
+}
+
+button:hover {
+  background-color: cyan;
+}
+.card {
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardElem {
+  border: 2px solid black;
+  margin: 5px;
+  width: 80%;
+  box-shadow: 0px 0px 15px 5px orange;
+}
+
+h3 {
+  background-color: #03a9f4;
+  text-transform: uppercase;
+}
+
+p {
+  background-color: #03a9f4;
+}
+
+@media only screen and (min-width: 700px) {
+  * {
+    font-family: "Inconsolata", monospace;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  .cardElem {
+    align-self: normal;
+    width: 25%;
+    border: 3px solid black;
+    height: auto;
+    margin: 10px;
+    padding: 13px;
+    overflow: auto;
+    background-color: #03a9f4;
+  }
+
+  input {
+    border: 2px solid black;
+  }
+  textarea {
+    border: 2px solid black;
+  }
+
+  button {
+    font-weight: bold;
+    font-size: bold;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 4px orange;
+  }
+
+  .cardElem::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  h3 {
+    background-color: #03a9f4;
+  }
+
+  p {
+    background-color: #03a9f4;
+  }
+}
